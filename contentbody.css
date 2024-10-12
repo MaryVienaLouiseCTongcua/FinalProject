@@ -1,0 +1,103 @@
+body {
+
+	background-image: url("images/factory.png"); 
+	background-size:cover;
+	postion:fixed;
+  }
+
+
+h1{
+
+	display: inline-block;
+	padding: 70 px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 35px;
+
+}
+
+h2{
+	margin-top:0px;
+	font-size:50px;
+	font-family: 'Zefani', sans-serif;
+	color: black;
+	background:lightgray;
+}
+
+h3{
+
+margin-top:0px;
+	font-size:10px;
+	color: black;
+
+}
+
+p{
+
+font-size:25px;
+color:white;
+
+}
+
+
+li{
+
+font-size:20px;
+color:black;
+
+}
+
+
+.navbar{
+	background:SteelBlue ;
+	font-family: calibri;
+	padding-right: 15px;
+	padding-left: 15px;
+	text-decoration: none;
+}
+
+.navbar ul{
+	list-style-type: none;
+	background-color: SteelBlue ;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden; 
+}
+
+.navbar a{
+
+	color: white;
+	text-decoration: none;
+	padding: 70 px;
+	display: block;
+	text-align: center;
+	font-size: 25px;
+	
+}
+
+
+.navbar a:hover{
+	background-color: Navy ;
+}
+
+
+
+
+ li{
+	list-style:none;
+	display:inline-block;
+}
+
+li a{
+	color: black;
+	font-size:18px;
+	font-weight:bold;
+	margin-right: 25px;
+}
+
+
+
+
+
+
+
+	

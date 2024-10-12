@@ -1,0 +1,114 @@
+h1 {
+	display: inline-block;
+	padding: 70 px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 35px;
+}
+
+h2{
+	margin-top:95px;
+	font-size:45px;
+	font-family: 'Zefani', sans-serif;
+	color: black;
+}
+
+h3{
+	font-family: calibri;
+	font-style: italic;
+}
+
+h4{
+	font-size: 40px;
+	font-family: "Times New Roman", Times, serif;
+	color:MidnightBlue  ;
+}
+
+.navbar{
+	background:SteelBlue ;
+	font-family: calibri;
+	padding-right: 15px;
+	padding-left: 15px;
+	text-decoration: none;
+}
+
+.navbar ul{
+	list-style-type: none;
+	background-color: SteelBlue ;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden; 
+}
+
+.navbar a{
+
+	color: white;
+	text-decoration: none;
+	padding: 70 px;
+	display: block;
+	text-align: center;
+	font-size: 25px;
+	
+}
+
+
+.navbar a:hover{
+	background-color: Navy ;
+}
+
+
+
+
+ li{
+	list-style:none;
+	display:inline-block;
+}
+
+li a{
+	color: black;
+	font-size:18px;
+	font-weight:bold;
+	margin-right: 25px;
+}
+
+
+hr.three {
+	            
+	height: 2px;
+	background-color: black;
+	width: 35%;
+	margin: 0PX;
+        }
+
+
+.container {
+  display: flex;
+  height: 100px; 
+}
+
+.image-half {
+  flex: 1; 
+}
+
+.image-half img {
+  width: 100%; 
+  height: 100%;
+  object-fit: cover; 
+}
+
+.text-half {
+  flex: 1; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.text-half h1 {
+  font-size: 36px;
+}
+
+.text-half p {
+  font-size: 18px;
+}
