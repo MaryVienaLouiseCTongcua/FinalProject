@@ -1,5 +1,73 @@
-body {
-    background-image: url("images/bground.png"); 
-    background-size: cover;
-    postion:fixed;
-  }
+
+.slide1 {
+    background-image: url("images/bground.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    position: relative; 
+    padding: 50px 20px; 
+    text-align: left; 
+    color: #000; 
+}
+
+.slide1 h2, .slide1 h3, .slide1 h4 {
+    margin: 10px 0; 
+    z-index: 1; 
+    position: relative;
+}
+
+
+.slide2 {
+    background-image: url("images/blue.jpeg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    position: relative; 
+    padding: 50px 20px; 
+    text-align: left; 
+    color: #000; 
+}
+
+
+.image-container {
+    display: flex;
+    margin-right: 20px; 
+    position: relative;
+}
+
+
+.article-image {
+    width: 300px; 
+    height: auto; 
+    margin-right: 20px; 
+    flex-shrink: 0; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    position: relative; 
+}
+
+
+.article-image:hover {
+    transform: scale(1.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.article-image:nth-child(1) {
+    top: 0;
+}
+
+.article-image:nth-child(2) {
+    top: 10px; 
+}
+
+.article-image:nth-child(3) {
+    top: 20px; 
+}
+
+
+.slide2 p {
+    font-size: 70px; 
+    color: #333; 
+    margin-top: 20px; 
+    line-height: 1.5; 
+}
