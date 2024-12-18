@@ -94,7 +94,96 @@ li a{
 	margin-right: 25px;
 }
 
+footer{
 
+color: black;
+
+}
+
+.rotate-image {
+    width: 300px; 
+    height: auto; 
+    transition: transform 0.5s ease;
+}
+
+
+.rotate-image:hover {
+    transform: rotate(360deg); 
+}
+
+.border{
+
+border: 10px solid black;
+
+}
+
+.image5{
+
+border: 5px solid darblue;
+
+}
+
+.image-pic {
+    display: flex;
+    margin-right: 20px; 
+    position: relative;
+}
+
+
+
+img[alt="Climate Change Image 4"] {
+    border: 5px solid white; 
+    transition: transform 0.5s ease, border 0.3s ease;
+}
+
+img[alt="Climate Change Image 4"]:hover {
+    transform: rotate(360deg); 
+}
+
+
+img[alt="Climate Change Image 5"] {
+    border: 5px solid darkblue; 
+    transition: transform 0.5s ease, border 0.3s ease;
+}
+
+img[alt="Climate Change Image 5"]:hover {
+    transform: scale(1.2); 
+}
+
+
+img[alt="Climate Change Image 6"] {
+    border: 5px solid gray; 
+    transition: transform 0.5s ease, border 0.3s ease;
+}
+
+img[alt="Climate Change Image 6"]:hover {
+    transform: scale(1.2); 
+}
+
+
+img[alt="Climate Change Image 7"] {
+    border: 5px solid lightblue;
+    transition: transform 0.5s ease, border 0.3s ease;
+}
+
+img[alt="Climate Change Image 7"]:hover {
+    transform: scale(1.2); 
+}
+
+
+img[alt="Climate Change Image 8"] {
+    border: 5px solid lightgray; 
+    transition: transform 0.5s ease, border 0.3s ease;
+}
+
+img[alt="Climate Change Image 8"]:hover {
+    transform: scale(1.2) ; 
+}
+
+
+.rotate-image {
+    transition: transform 0.5s ease; 
+}
 
 
 
