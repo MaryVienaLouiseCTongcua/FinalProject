@@ -186,6 +186,34 @@ img[alt="Climate Change Image 8"]:hover {
 }
 
 
+.coin-animation {
+  width: 64px; 
+  height: 64px;  
+  background: url("images/sprite2.jpg") no-repeat; 
+  background-size: 512px 64px;
+  animation: spin-coin 1s steps(8) infinite; 
+}
+
+@keyframes spin-coin {
+  from {
+    background-position: 0 0; 
+  }
+  to {
+    background-position: -512px 0; 
+  }
+
+footer {
+  display: flex; 
+  flex-direction: column; 
+  align-items: flex-start; 
+}
+
+.footer-text {
+  display: flex; 
+  align-items: center; 
+  gap: 8px; 
+}
+
 
 
 
