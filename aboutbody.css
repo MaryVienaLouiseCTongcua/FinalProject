@@ -143,6 +143,54 @@ font-size:20px;
 }
 
 
+.twitter-container {
+  display: flex; 
+  align-items: center; 
+  gap: 8px; 
+}
 
+.twitter {
+  background: url("images/sprite.jpg") no-repeat -170px -64px;
+  background-size: 300px 108px; 
+  width: 17px; 
+  height: 17px; 
+}
 
-	
+.facebook-container {
+  display: flex;
+  align-items: center; 
+  gap: 8px; 
+}
+
+.facebook {
+  background: url("images/sprite.jpg") no-repeat -113px -64px; 
+  background-size: 300px 108px; 
+  width: 17px;
+  height: 16px;  
+}
+
+.email-container {
+  display: flex; 
+  align-items: center; 
+  gap: 8px; 
+}
+
+.email {
+  background: url("images/sprite.jpg") no-repeat -27px -64px; 
+  background-size: 300px 108px; 
+  width: 16px; 
+  height: 17px;
+}
+
+.instagram-container {
+  display: flex; 
+  align-items: center; 
+  gap: 8px;
+}
+
+.instagram {
+  background: url("images/sprite.jpg") no-repeat -228px -64px; 
+  background-size: 300px 108px; 
+  width: 16px; 
+  height: 17px; 
+}
