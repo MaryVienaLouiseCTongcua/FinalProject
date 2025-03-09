@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<head>
+
+    <link rel="stylesheet" href="quizstyles.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" width="110" align="left" alt="Logo">
+        <h1>Climate Crisis: Time to Take Action</h1>
+
+        <nav class="navbar">
+<link rel="stylesheet" type="text/css" href="style.css">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="content.html">Content</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="reference.html">Reference</a></li>
+                <li><a href="merch.html">Merch Store</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section class="quiz-container" id="quiz-container">
+            <h2>Climate Change Quiz</h2>
+            <p id="question"></p>
+
+            <div id="options"></div>
+
+            <button id="prev-btn" onclick="prevQuestion()">Previous</button>
+            <button id="next-btn" onclick="nextQuestion()">Next</button>
+            <button id="submit-btn" onclick="submitQuiz()" style="display: none;">Submit</button>
+
+            <p id="result"></p>
+        </section>
+
+       
+        <section class="slide1">
+            <h2><b>CLIMATE CHANGE</b></h2>
+            <hr class="three">
+            <h4><b>No Action, No Change</b></h4>
+            <h3>A small amount of time is just needed to raise awareness about what is going on in our world today.</h3>
+            <h3>You've heard about it, and yet did you do something about it?</h3>
+            <h3><b>Why go to Planet No.2 when we can save Planet No.1...</b></h3>
+            <hr class="three">
+        </section>
+
+       
+        <section class="slide2">
+            <article>
+                <div class="image-container">
+                    <img src="images/image1.jpeg" class="article-image" width="150" alt="Climate image 1">
+                    <img src="images/image2.jpeg" class="article-image" width="150" alt="Climate image 2">
+                    <img src="images/image3.jpeg" class="article-image" width="150" alt="Climate image 3">
+                </div>
+                <p><b>MILLIONS ARE SUFFERING...!</b></p>
+            </article>
+        </section>
+    </main>
+
+    
+    <footer>
+        <p>&copy; 2024 Climate Action Organization. All rights reserved.</p>
+        <p>Contact us at <a href="mailto:info@EcoVibe.org">info@EcoVibe.org</a></p>
+    </footer>
+
+ 
+    <script src="script.js" defer></script>
+</body>
+
+</html>

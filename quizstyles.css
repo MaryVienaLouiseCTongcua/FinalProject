@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e0f7fa;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: SteelBlue;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 35px;
+}
+
+.navbar ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: Navy;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.slide1 h2 {
+    font-size: 45px;
+    font-family: 'Zefani', sans-serif;
+    color: black;
+}
+
+.slide1 h3, .slide1 h4 {
+    font-family: calibri;
+    font-style: italic;
+}
+
+.slide1 h4 {
+    font-size: 40px;
+    color: MidnightBlue;
+}
+
+hr.three {
+    height: 2px;
+    background-color: black;
+    width: 35%;
+    margin: 20px auto;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.article-image {
+    width: 150px;
+    border-radius: 12px;
+}
+
+footer {
+    background: SteelBlue;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.quiz-container {
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#prev-btn {
+    background-color: #29b6f6;
+    color: white;
+}
+
+#next-btn {
+    background-color: #66bb6a;
+    color: white;
+}
+
+#submit-btn {
+    background-color: #ef5350;
+    color: white;
+}
+
+.correct {
+    background-color: #c8e6c9;
+}
+
+.incorrect {
+    background-color: #ffcdd2;
+}
+
+.option-btn.selected {
+    border: 2px solid #000;
+}
