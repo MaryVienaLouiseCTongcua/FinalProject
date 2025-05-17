@@ -7,3 +7,52 @@
   text-decoration: none;
   display: inline-block;
 }
+
+h5 {
+  font-size: 24px;
+}
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.hover-effect-img {
+  position: relative;
+  width: 150px;
+  cursor: pointer;
+}
+
+.hover-effect-img img {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-effect-img:hover img {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  text-align: center;
+}
+
+.hover-effect-img:hover .overlay-text {
+  opacity: 1;
+}
