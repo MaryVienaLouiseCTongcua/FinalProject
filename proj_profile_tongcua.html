@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile - Save the Polar Bears</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+ <header>
+        <img src="images/logo.png" width="110" align="left" alt="Logo">
+        <h1>Climate Crisis: Time to Take Action</h1>
+
+        <nav class="navbar">
+<link rel="stylesheet" type="text/css" href="style.css">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="content.html">Content</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="reference.html">Reference</a></li>
+                <li><a href="merch.html">Merch Store</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+		<li><a href="proj_signup_tongcua.html">Sign up</a></li>
+	<li><a href="proj_profile_tongcua.html">Profile</a></li>
+	
+            </ul>
+        </nav>
+    </header>
+
+  <header>
+    <h1>Welcome to the Campaign!</h1>
+    <p>Thanks for supporting polar bear conservation 🌍</p>
+  </header>
+  <main>
+    <p><strong>First Name:</strong> <span id="displayFirstName"></span></p>
+    <p><strong>Last Name:</strong> <span id="displayLastName"></span></p>
+    <p><strong>Email:</strong> <span id="displayEmail"></span></p>
+    <p><strong>Sex:</strong> <span id="displaySex"></span></p>
+    <p><strong>Why You Support:</strong> <span id="displayReason"></span></p>
+  </main>
+
+  <script>
+    document.getElementById("displayFirstName").textContent = localStorage.getItem("firstName");
+    document.getElementById("displayLastName").textContent = localStorage.getItem("lastName");
+    document.getElementById("displayEmail").textContent = localStorage.getItem("email");
+    document.getElementById("displaySex").textContent = localStorage.getItem("sex");
+    document.getElementById("displayReason").textContent = localStorage.getItem("reason");
+  </script>
+</body>
+</html>
