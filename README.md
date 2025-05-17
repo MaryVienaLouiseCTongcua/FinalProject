@@ -1,1 +1,3 @@
-# FinalProject
+ -is a Laboratory Activity on Modules 1 to 14.
+ - The topics covered in this activity are starting from quarter 1 till quarter 4.
+ - https://github.com/MaryVienaLouiseCTongcua/FinalProject
